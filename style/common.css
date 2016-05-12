@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+.comWidth{
+	width: 970px;
+	margin: 0 auto;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.icon,.pc,.del{
+	background: url(../images/icon/icon_menu.png) 0 0 no-repeat;
+}
+.hr_19{
+	height: 19px;
+	overflow: hidden;
+}
+.hr_20{
+	height: 20px;
+	overflow: hidden;
+}
+.hr_50{
+    height: 50px;
+    overflow: hidden;
+}
+/* 清浮动 */
+.clearfix:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.clearfix{
+	zoom: 1;
+}
+.show{
+	display: block;
+}
